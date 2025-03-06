@@ -1,0 +1,1110 @@
+[2025-02-23T18:17:42.827+0530] {processor.py:157} INFO - Started process (PID=6278) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:17:42.827+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:17:42.828+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:17:42.828+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:17:52.431+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:17:52.707+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:17:52.707+0530] {manager.py:499} INFO - Created Permission View: %s
+[2025-02-23T18:17:52.711+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:17:52.711+0530] {manager.py:499} INFO - Created Permission View: %s
+[2025-02-23T18:17:52.714+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:17:52.713+0530] {manager.py:499} INFO - Created Permission View: %s
+[2025-02-23T18:17:52.714+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:17:52.714+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:17:52.718+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:17:52.718+0530] {dag.py:2963} INFO - Creating ORM DAG for data_pipeline
+[2025-02-23T18:17:52.718+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:17:52.718+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:17:52.724+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 9.898 seconds
+[2025-02-23T18:19:16.211+0530] {processor.py:157} INFO - Started process (PID=6468) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:19:16.212+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:19:16.213+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:19:16.213+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:19:16.492+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:19:16.571+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:19:16.571+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:19:16.575+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:19:16.575+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:19:16.582+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.371 seconds
+[2025-02-23T18:20:50.226+0530] {processor.py:157} INFO - Started process (PID=6875) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:20:50.227+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:20:50.227+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:20:50.227+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:20:50.466+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:20:50.489+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:20:50.488+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:20:50.526+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:20:50.526+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:20:50.535+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.309 seconds
+[2025-02-23T18:22:27.508+0530] {processor.py:157} INFO - Started process (PID=6998) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:22:27.509+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:22:27.509+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:22:27.509+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:22:27.740+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:22:27.764+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:22:27.764+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:22:27.800+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:22:27.800+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:22:27.808+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.301 seconds
+[2025-02-23T18:24:27.004+0530] {processor.py:157} INFO - Started process (PID=7179) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:24:27.006+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:24:27.006+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:24:27.006+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:24:27.204+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:24:27.228+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:24:27.228+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:24:27.265+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:24:27.265+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:24:27.273+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.269 seconds
+[2025-02-23T18:25:48.632+0530] {processor.py:157} INFO - Started process (PID=7450) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:25:48.633+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:25:48.633+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:25:48.633+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:25:48.926+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:25:49.016+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:25:49.016+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:25:49.021+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:25:49.021+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:25:49.030+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.398 seconds
+[2025-02-23T18:26:34.731+0530] {processor.py:157} INFO - Started process (PID=7570) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:26:34.732+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:26:34.732+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:26:34.732+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:26:34.948+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:26:35.028+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:26:35.028+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:26:35.032+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:26:35.032+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:26:35.039+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.309 seconds
+[2025-02-23T18:27:21.795+0530] {processor.py:157} INFO - Started process (PID=7688) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:27:21.796+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:27:21.796+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:27:21.796+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:27:22.017+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:27:22.098+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:27:22.097+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:27:22.101+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:27:22.101+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:27:22.109+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.315 seconds
+[2025-02-23T18:28:10.903+0530] {processor.py:157} INFO - Started process (PID=7778) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:28:10.904+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:28:10.904+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:28:10.904+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:28:11.178+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:28:11.264+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:28:11.263+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:28:11.267+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:28:11.267+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:28:11.274+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.372 seconds
+[2025-02-23T18:28:57.269+0530] {processor.py:157} INFO - Started process (PID=7876) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:28:57.270+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:28:57.270+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:28:57.270+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:28:57.502+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:28:57.586+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:28:57.586+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:28:57.590+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:28:57.590+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:28:57.597+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.329 seconds
+[2025-02-23T18:29:38.812+0530] {processor.py:157} INFO - Started process (PID=7976) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:29:38.813+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:29:38.813+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:29:38.813+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:29:39.032+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:29:39.113+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:29:39.113+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:29:39.117+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:29:39.117+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:29:39.125+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.314 seconds
+[2025-02-23T18:30:24.818+0530] {processor.py:157} INFO - Started process (PID=8061) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:30:24.819+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:30:24.820+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:30:24.820+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:30:25.068+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:30:25.153+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:30:25.153+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:30:25.157+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:30:25.157+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:30:25.166+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.349 seconds
+[2025-02-23T18:31:13.765+0530] {processor.py:157} INFO - Started process (PID=8145) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:31:13.766+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:31:13.767+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:31:13.766+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:31:14.046+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:31:14.133+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:31:14.133+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:31:14.137+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:31:14.137+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:31:14.145+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.380 seconds
+[2025-02-23T18:32:04.132+0530] {processor.py:157} INFO - Started process (PID=8239) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:32:04.132+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:32:04.132+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:32:04.132+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:32:04.319+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:32:04.399+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:32:04.399+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:32:04.403+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:32:04.403+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:32:04.410+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.279 seconds
+[2025-02-23T18:32:54.979+0530] {processor.py:157} INFO - Started process (PID=8328) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:32:54.980+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:32:54.980+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:32:54.980+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:32:55.215+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:32:55.296+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:32:55.296+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:32:55.300+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:32:55.300+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:32:55.307+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.329 seconds
+[2025-02-23T18:33:42.683+0530] {processor.py:157} INFO - Started process (PID=8445) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:33:42.684+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:33:42.684+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:33:42.684+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:33:42.909+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:33:42.989+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:33:42.989+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:33:42.993+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:33:42.993+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:33:43.000+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.318 seconds
+[2025-02-23T18:34:05.503+0530] {processor.py:157} INFO - Started process (PID=8507) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:34:05.503+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:34:05.504+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:34:05.503+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:34:05.699+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:34:05.723+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:34:05.723+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:34:05.762+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:34:05.762+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:34:05.769+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.267 seconds
+[2025-02-23T18:34:20.017+0530] {processor.py:157} INFO - Started process (PID=8572) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:34:20.018+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:34:20.018+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:34:20.018+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:34:20.218+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:34:20.240+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:34:20.240+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:34:20.276+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:34:20.276+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:34:20.284+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.267 seconds
+[2025-02-23T18:34:29.789+0530] {processor.py:157} INFO - Started process (PID=8614) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:34:29.789+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:34:29.789+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:34:29.789+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:34:29.970+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:34:29.993+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:34:29.992+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:34:30.029+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:34:30.029+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:34:30.036+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.248 seconds
+[2025-02-23T18:34:49.509+0530] {processor.py:157} INFO - Started process (PID=8675) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:34:49.510+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:34:49.510+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:34:49.510+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:34:49.698+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:34:49.781+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:34:49.781+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:34:49.785+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:34:49.784+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:34:49.792+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.283 seconds
+[2025-02-23T18:36:10.465+0530] {processor.py:157} INFO - Started process (PID=8839) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:36:10.466+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:36:10.467+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:36:10.467+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:36:10.699+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:36:10.778+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:36:10.778+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:36:10.782+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:36:10.782+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:36:10.789+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.324 seconds
+[2025-02-23T18:36:55.985+0530] {processor.py:157} INFO - Started process (PID=8937) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:36:55.986+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:36:55.986+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:36:55.986+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:36:56.222+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:36:56.302+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:36:56.302+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:36:56.306+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:36:56.306+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:36:56.313+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.329 seconds
+[2025-02-23T18:37:42.941+0530] {processor.py:157} INFO - Started process (PID=9024) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:37:42.942+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:37:42.943+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:37:42.943+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:37:43.183+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:37:43.267+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:37:43.267+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:37:43.271+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:37:43.271+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:37:43.278+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.338 seconds
+[2025-02-23T18:38:26.791+0530] {processor.py:157} INFO - Started process (PID=9135) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:38:26.792+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:38:26.792+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:38:26.792+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:38:26.972+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:38:27.054+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:38:27.054+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:38:27.058+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:38:27.058+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:38:27.065+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.274 seconds
+[2025-02-23T18:39:10.563+0530] {processor.py:157} INFO - Started process (PID=9215) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:39:10.565+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:39:10.565+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:39:10.565+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:39:10.822+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:39:10.911+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:39:10.911+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:39:10.915+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:39:10.915+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:39:10.925+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.362 seconds
+[2025-02-23T18:40:00.212+0530] {processor.py:157} INFO - Started process (PID=9311) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:40:00.213+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:40:00.213+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:40:00.213+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:40:00.451+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:40:00.532+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:40:00.532+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:40:00.536+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:40:00.536+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:40:00.544+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.332 seconds
+[2025-02-23T18:40:38.395+0530] {processor.py:157} INFO - Started process (PID=9392) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:40:38.396+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:40:38.396+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:40:38.396+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:40:38.585+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:40:38.608+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:40:38.608+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:40:38.644+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:40:38.644+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:40:38.652+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.257 seconds
+[2025-02-23T18:41:59.608+0530] {processor.py:157} INFO - Started process (PID=9560) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:41:59.609+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:41:59.609+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:41:59.609+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:41:59.844+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:41:59.929+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:41:59.929+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:41:59.934+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:41:59.933+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:41:59.943+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.335 seconds
+[2025-02-23T18:42:43.557+0530] {processor.py:157} INFO - Started process (PID=9640) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:42:43.557+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:42:43.558+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:42:43.558+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:42:43.741+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:42:43.822+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:42:43.821+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:42:43.825+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:42:43.825+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:42:43.833+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.277 seconds
+[2025-02-23T18:43:32.171+0530] {processor.py:157} INFO - Started process (PID=9726) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:43:32.173+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:43:32.173+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:43:32.173+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:43:32.405+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:43:32.485+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:43:32.485+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:43:32.489+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:43:32.489+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:43:32.498+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.327 seconds
+[2025-02-23T18:44:24.769+0530] {processor.py:157} INFO - Started process (PID=9834) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:44:24.770+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:44:24.770+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:44:24.770+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:44:25.066+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:44:25.154+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:44:25.154+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:44:25.159+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:44:25.159+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:44:25.169+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.400 seconds
+[2025-02-23T18:45:14.772+0530] {processor.py:157} INFO - Started process (PID=9932) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:45:14.773+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:45:14.773+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:45:14.773+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:45:15.010+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:45:15.093+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:45:15.093+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:45:15.097+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:45:15.097+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:45:15.104+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.332 seconds
+[2025-02-23T18:46:05.557+0530] {processor.py:157} INFO - Started process (PID=10026) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:46:05.557+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:46:05.558+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:46:05.558+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:46:05.831+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:46:05.933+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:46:05.933+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:46:05.937+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:46:05.937+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:46:05.945+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.389 seconds
+[2025-02-23T18:46:55.002+0530] {processor.py:157} INFO - Started process (PID=10107) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:46:55.003+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:46:55.004+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:46:55.003+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:46:55.244+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:46:55.326+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:46:55.326+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:46:55.330+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:46:55.330+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:46:55.338+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.336 seconds
+[2025-02-23T18:47:40.704+0530] {processor.py:157} INFO - Started process (PID=10186) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:47:40.706+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:47:40.706+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:47:40.706+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:47:40.924+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:47:41.004+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:47:41.004+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:47:41.007+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:47:41.007+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:47:41.015+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.312 seconds
+[2025-02-23T18:48:29.067+0530] {processor.py:157} INFO - Started process (PID=10267) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:48:29.069+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:48:29.069+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:48:29.069+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:48:29.314+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:48:29.401+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:48:29.401+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:48:29.406+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:48:29.406+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:48:29.415+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.348 seconds
+[2025-02-23T18:49:17.300+0530] {processor.py:157} INFO - Started process (PID=10361) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:49:17.301+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:49:17.301+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:49:17.301+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:49:17.533+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:49:17.613+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:49:17.613+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:49:17.617+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:49:17.617+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:49:17.624+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.325 seconds
+[2025-02-23T18:50:01.132+0530] {processor.py:157} INFO - Started process (PID=10437) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:50:01.132+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:50:01.132+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:50:01.132+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:50:01.312+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:50:01.392+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:50:01.392+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:50:01.396+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:50:01.396+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:50:01.403+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.272 seconds
+[2025-02-23T18:50:44.865+0530] {processor.py:157} INFO - Started process (PID=10541) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:50:44.865+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:50:44.865+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:50:44.865+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:50:45.051+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:50:45.133+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:50:45.133+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:50:45.137+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:50:45.137+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:50:45.145+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.281 seconds
+[2025-02-23T18:51:33.512+0530] {processor.py:157} INFO - Started process (PID=10629) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:51:33.513+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:51:33.513+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:51:33.513+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:51:33.692+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:51:33.772+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:51:33.772+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:51:33.776+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:51:33.776+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:51:33.783+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.271 seconds
+[2025-02-23T18:52:22.272+0530] {processor.py:157} INFO - Started process (PID=10713) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:52:22.272+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:52:22.273+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:52:22.273+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:52:22.449+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:52:22.528+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:52:22.528+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:52:22.532+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:52:22.532+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:52:22.539+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.268 seconds
+[2025-02-23T18:53:10.813+0530] {processor.py:157} INFO - Started process (PID=10798) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:53:10.813+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:53:10.814+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:53:10.813+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:53:11.001+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:53:11.081+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:53:11.081+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:53:11.085+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:53:11.085+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline to None, run_after=None
+[2025-02-23T18:53:11.093+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.281 seconds
+[2025-02-23T18:53:53.655+0530] {processor.py:157} INFO - Started process (PID=10885) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:53:53.656+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:53:53.656+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:53:53.656+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:53:53.840+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:53:54.143+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:53:54.143+0530] {manager.py:499} INFO - Created Permission View: %s
+[2025-02-23T18:53:54.147+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:53:54.146+0530] {manager.py:499} INFO - Created Permission View: %s
+[2025-02-23T18:53:54.149+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:53:54.149+0530] {manager.py:499} INFO - Created Permission View: %s
+[2025-02-23T18:53:54.149+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:53:54.149+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:53:54.153+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:53:54.153+0530] {dag.py:2963} INFO - Creating ORM DAG for data_pipeline_dag
+[2025-02-23T18:53:54.153+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:53:54.153+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T18:53:54.159+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.505 seconds
+[2025-02-23T18:54:40.337+0530] {processor.py:157} INFO - Started process (PID=10997) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:54:40.338+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:54:40.338+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:54:40.338+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:54:40.559+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:54:40.641+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:54:40.641+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:54:40.645+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:54:40.645+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T18:54:40.653+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.316 seconds
+[2025-02-23T18:55:30.622+0530] {processor.py:157} INFO - Started process (PID=11082) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:55:30.623+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:55:30.623+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:55:30.623+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:55:30.845+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:55:30.927+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:55:30.927+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:55:30.931+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:55:30.931+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T18:55:30.938+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.316 seconds
+[2025-02-23T18:56:19.514+0530] {processor.py:157} INFO - Started process (PID=11171) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:56:19.515+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:56:19.515+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:56:19.515+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:56:19.737+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:56:19.823+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:56:19.823+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:56:19.826+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:56:19.826+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T18:56:19.834+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.320 seconds
+[2025-02-23T18:57:06.577+0530] {processor.py:157} INFO - Started process (PID=11254) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:57:06.578+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:57:06.578+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:57:06.578+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:57:06.803+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:57:06.883+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:57:06.883+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:57:06.886+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:57:06.886+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T18:57:06.894+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.318 seconds
+[2025-02-23T18:57:55.657+0530] {processor.py:157} INFO - Started process (PID=11334) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:57:55.657+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T18:57:55.657+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:57:55.657+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:57:55.838+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T18:57:55.919+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:57:55.918+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T18:57:55.922+0530] {logging_mixin.py:154} INFO - [2025-02-23T18:57:55.922+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T18:57:55.930+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.274 seconds
+[2025-02-23T19:13:39.683+0530] {processor.py:157} INFO - Started process (PID=11433) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:13:39.684+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T19:13:39.684+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:13:39.684+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:13:39.909+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:13:39.991+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:13:39.991+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T19:13:39.995+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:13:39.995+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T19:13:40.003+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.320 seconds
+[2025-02-23T19:15:01.350+0530] {processor.py:157} INFO - Started process (PID=11622) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:15:01.351+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T19:15:01.351+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:15:01.351+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:15:01.580+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:15:01.660+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:15:01.660+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T19:15:01.664+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:15:01.664+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T19:15:01.671+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.321 seconds
+[2025-02-23T19:15:51.833+0530] {processor.py:157} INFO - Started process (PID=11721) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:15:51.833+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T19:15:51.833+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:15:51.833+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:15:52.069+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:15:52.150+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:15:52.149+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T19:15:52.153+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:15:52.153+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T19:15:52.161+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.329 seconds
+[2025-02-23T19:16:41.660+0530] {processor.py:157} INFO - Started process (PID=11805) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:16:41.660+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T19:16:41.661+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:16:41.661+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:16:41.908+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:16:41.990+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:16:41.990+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T19:16:41.994+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:16:41.994+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T19:16:42.002+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.342 seconds
+[2025-02-23T19:17:33.620+0530] {processor.py:157} INFO - Started process (PID=11897) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:17:33.621+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T19:17:33.621+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:17:33.621+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:17:33.843+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:17:33.922+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:17:33.922+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T19:17:33.926+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:17:33.926+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T19:17:33.933+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.313 seconds
+[2025-02-23T19:33:23.830+0530] {processor.py:157} INFO - Started process (PID=12033) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:33:23.831+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T19:33:23.832+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:33:23.832+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:33:24.056+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:33:24.137+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:33:24.137+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T19:33:24.141+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:33:24.141+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T19:33:24.148+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.318 seconds
+[2025-02-23T19:34:15.463+0530] {processor.py:157} INFO - Started process (PID=12135) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:34:15.463+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T19:34:15.464+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:34:15.464+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:34:15.687+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:34:15.766+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:34:15.766+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T19:34:15.770+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:34:15.770+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T19:34:15.777+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.314 seconds
+[2025-02-23T19:35:07.077+0530] {processor.py:157} INFO - Started process (PID=12224) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:35:07.078+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T19:35:07.078+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:35:07.078+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:35:07.303+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:35:07.382+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:35:07.382+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T19:35:07.386+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:35:07.386+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T19:35:07.393+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.316 seconds
+[2025-02-23T19:35:58.759+0530] {processor.py:157} INFO - Started process (PID=12324) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:35:58.760+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T19:35:58.760+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:35:58.760+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:35:58.998+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:35:59.077+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:35:59.077+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T19:35:59.081+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:35:59.081+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T19:35:59.088+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.329 seconds
+[2025-02-23T19:36:50.406+0530] {processor.py:157} INFO - Started process (PID=12408) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:36:50.407+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T19:36:50.407+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:36:50.407+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:36:50.635+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:36:50.715+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:36:50.715+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T19:36:50.719+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:36:50.719+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T19:36:50.726+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.320 seconds
+[2025-02-23T19:52:40.295+0530] {processor.py:157} INFO - Started process (PID=12539) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:52:40.296+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T19:52:40.296+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:52:40.296+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:52:40.520+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T19:52:40.600+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:52:40.600+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T19:52:40.604+0530] {logging_mixin.py:154} INFO - [2025-02-23T19:52:40.604+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T19:52:40.611+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.317 seconds
+[2025-02-23T20:06:45.049+0530] {processor.py:157} INFO - Started process (PID=12668) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:06:45.050+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:06:45.050+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:06:45.050+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:06:45.320+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:06:45.405+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:06:45.405+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:06:45.409+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:06:45.408+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:06:45.417+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.369 seconds
+[2025-02-23T20:07:52.819+0530] {processor.py:157} INFO - Started process (PID=12786) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:07:52.819+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:07:52.819+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:07:52.819+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:07:53.021+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:07:53.100+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:07:53.100+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:07:53.104+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:07:53.104+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:07:53.112+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.294 seconds
+[2025-02-23T20:08:40.829+0530] {processor.py:157} INFO - Started process (PID=12891) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:08:40.829+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:08:40.830+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:08:40.830+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:08:41.006+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:08:41.086+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:08:41.086+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:08:41.090+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:08:41.090+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:08:41.097+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.269 seconds
+[2025-02-23T20:09:28.493+0530] {processor.py:157} INFO - Started process (PID=12989) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:09:28.493+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:09:28.494+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:09:28.494+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:09:28.672+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:09:28.752+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:09:28.752+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:09:28.756+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:09:28.756+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:09:28.764+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.271 seconds
+[2025-02-23T20:10:16.988+0530] {processor.py:157} INFO - Started process (PID=13079) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:10:16.989+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:10:16.989+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:10:16.989+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:10:17.217+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:10:17.301+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:10:17.301+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:10:17.305+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:10:17.305+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:10:17.312+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.324 seconds
+[2025-02-23T20:11:04.591+0530] {processor.py:157} INFO - Started process (PID=13175) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:11:04.592+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:11:04.592+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:11:04.592+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:11:04.835+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:11:04.914+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:11:04.914+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:11:04.918+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:11:04.918+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:11:04.925+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.335 seconds
+[2025-02-23T20:11:49.918+0530] {processor.py:157} INFO - Started process (PID=13262) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:11:49.919+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:11:49.920+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:11:49.920+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:11:50.151+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:11:50.231+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:11:50.231+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:11:50.236+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:11:50.236+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:11:50.243+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.325 seconds
+[2025-02-23T20:12:35.898+0530] {processor.py:157} INFO - Started process (PID=13339) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:12:35.899+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:12:35.900+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:12:35.900+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:12:36.125+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:12:36.206+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:12:36.206+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:12:36.211+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:12:36.211+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:12:36.219+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.321 seconds
+[2025-02-23T20:13:21.572+0530] {processor.py:157} INFO - Started process (PID=13419) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:13:21.572+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:13:21.572+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:13:21.572+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:13:21.797+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:13:21.878+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:13:21.878+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:13:21.882+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:13:21.882+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:13:21.890+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.319 seconds
+[2025-02-23T20:14:06.027+0530] {processor.py:157} INFO - Started process (PID=13501) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:14:06.028+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:14:06.028+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:14:06.028+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:14:06.252+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:14:06.334+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:14:06.333+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:14:06.338+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:14:06.338+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:14:06.345+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.318 seconds
+[2025-02-23T20:14:55.057+0530] {processor.py:157} INFO - Started process (PID=13600) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:14:55.058+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:14:55.059+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:14:55.059+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:14:55.294+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:14:55.376+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:14:55.376+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:14:55.380+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:14:55.380+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:14:55.387+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.331 seconds
+[2025-02-23T20:15:43.512+0530] {processor.py:157} INFO - Started process (PID=13693) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:15:43.513+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:15:43.513+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:15:43.513+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:15:43.736+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:15:43.818+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:15:43.818+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:15:43.822+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:15:43.822+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:15:43.830+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.318 seconds
+[2025-02-23T20:16:27.663+0530] {processor.py:157} INFO - Started process (PID=13773) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:16:27.664+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:16:27.664+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:16:27.664+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:16:27.890+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:16:27.976+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:16:27.975+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:16:27.979+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:16:27.979+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:16:27.987+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.325 seconds
+[2025-02-23T20:17:12.874+0530] {processor.py:157} INFO - Started process (PID=13856) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:17:12.875+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:17:12.876+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:17:12.876+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:17:13.095+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:17:13.176+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:17:13.176+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:17:13.180+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:17:13.180+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:17:13.187+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.313 seconds
+[2025-02-23T20:17:57.700+0530] {processor.py:157} INFO - Started process (PID=13936) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:17:57.701+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:17:57.701+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:17:57.701+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:17:57.927+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:17:58.008+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:17:58.008+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:17:58.012+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:17:58.012+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:17:58.020+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.320 seconds
+[2025-02-23T20:18:40.945+0530] {processor.py:157} INFO - Started process (PID=14013) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:18:40.945+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:18:40.946+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:18:40.946+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:18:41.185+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:18:41.265+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:18:41.265+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:18:41.269+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:18:41.269+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:18:41.277+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.332 seconds
+[2025-02-23T20:19:26.232+0530] {processor.py:157} INFO - Started process (PID=14099) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:19:26.233+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:19:26.233+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:19:26.233+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:19:26.486+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:19:26.570+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:19:26.570+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:19:26.576+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:19:26.575+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:19:26.586+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.354 seconds
+[2025-02-23T20:20:17.242+0530] {processor.py:157} INFO - Started process (PID=14182) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:20:17.242+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:20:17.242+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:20:17.242+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:20:17.490+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:20:17.577+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:20:17.577+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:20:17.581+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:20:17.581+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:20:17.588+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.347 seconds
+[2025-02-23T20:21:05.207+0530] {processor.py:157} INFO - Started process (PID=14270) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:21:05.208+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:21:05.208+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:21:05.208+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:21:05.447+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:21:05.529+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:21:05.529+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:21:05.533+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:21:05.533+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:21:05.540+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.334 seconds
+[2025-02-23T20:21:52.589+0530] {processor.py:157} INFO - Started process (PID=14347) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:21:52.590+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:21:52.590+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:21:52.590+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:21:52.776+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:21:52.858+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:21:52.858+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:21:52.862+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:21:52.862+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:21:52.871+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.282 seconds
+[2025-02-23T20:22:39.847+0530] {processor.py:157} INFO - Started process (PID=14431) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:22:39.848+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:22:39.848+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:22:39.848+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:22:40.088+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:22:40.168+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:22:40.168+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:22:40.172+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:22:40.172+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:22:40.180+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.334 seconds
+[2025-02-23T20:23:27.768+0530] {processor.py:157} INFO - Started process (PID=14512) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:23:27.769+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:23:27.769+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:23:27.769+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:23:28.000+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:23:28.084+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:23:28.084+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:23:28.088+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:23:28.088+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:23:28.096+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.328 seconds
+[2025-02-23T20:24:15.158+0530] {processor.py:157} INFO - Started process (PID=14596) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:24:15.159+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:24:15.159+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:24:15.159+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:24:15.345+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:24:15.425+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:24:15.425+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:24:15.429+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:24:15.429+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:24:15.436+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.279 seconds
+[2025-02-23T20:25:03.983+0530] {processor.py:157} INFO - Started process (PID=14674) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:25:03.984+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:25:03.984+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:25:03.984+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:25:04.164+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:25:04.243+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:25:04.243+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:25:04.247+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:25:04.247+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:25:04.254+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.271 seconds
+[2025-02-23T20:25:56.289+0530] {processor.py:157} INFO - Started process (PID=14764) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:25:56.291+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:25:56.291+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:25:56.291+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:25:56.557+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:25:56.644+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:25:56.644+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:25:56.648+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:25:56.648+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:25:56.656+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.368 seconds
+[2025-02-23T20:26:41.777+0530] {processor.py:157} INFO - Started process (PID=14845) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:26:41.778+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:26:41.778+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:26:41.778+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:26:42.011+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:26:42.091+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:26:42.091+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:26:42.095+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:26:42.095+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:26:42.103+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.327 seconds
+[2025-02-23T20:27:23.199+0530] {processor.py:157} INFO - Started process (PID=14919) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:27:23.200+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:27:23.200+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:27:23.200+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:27:23.436+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:27:23.516+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:27:23.516+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:27:23.520+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:27:23.519+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:27:23.527+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.328 seconds
+[2025-02-23T20:28:09.446+0530] {processor.py:157} INFO - Started process (PID=15016) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:28:09.448+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:28:09.448+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:28:09.448+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:28:09.712+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:28:09.800+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:28:09.800+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:28:09.804+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:28:09.804+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:28:09.811+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.366 seconds
+[2025-02-23T20:28:54.022+0530] {processor.py:157} INFO - Started process (PID=15104) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:28:54.022+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:28:54.023+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:28:54.022+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:28:54.250+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:28:54.331+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:28:54.330+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:28:54.334+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:28:54.334+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:28:54.342+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.321 seconds
+[2025-02-23T20:29:39.117+0530] {processor.py:157} INFO - Started process (PID=15178) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:29:39.117+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:29:39.117+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:29:39.117+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:29:39.304+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:29:39.384+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:29:39.384+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:29:39.388+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:29:39.388+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:29:39.395+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.279 seconds
+[2025-02-23T20:30:31.029+0530] {processor.py:157} INFO - Started process (PID=15272) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:30:31.029+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:30:31.029+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:30:31.029+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:30:31.214+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:30:31.294+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:30:31.294+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:30:31.298+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:30:31.298+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:30:31.305+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.277 seconds
+[2025-02-23T20:31:20.930+0530] {processor.py:157} INFO - Started process (PID=15355) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:31:20.931+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:31:20.931+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:31:20.931+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:31:21.126+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:31:21.211+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:31:21.211+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:31:21.214+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:31:21.214+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:31:21.223+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.293 seconds
+[2025-02-23T20:32:09.567+0530] {processor.py:157} INFO - Started process (PID=15443) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:32:09.568+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:32:09.568+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:32:09.568+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:32:09.797+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:32:09.877+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:32:09.877+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:32:09.881+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:32:09.881+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:32:09.888+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.322 seconds
+[2025-02-23T20:32:59.715+0530] {processor.py:157} INFO - Started process (PID=15527) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:32:59.716+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:32:59.716+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:32:59.716+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:32:59.959+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:33:00.043+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:33:00.043+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:33:00.047+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:33:00.047+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:33:00.055+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.340 seconds
+[2025-02-23T20:33:46.306+0530] {processor.py:157} INFO - Started process (PID=15611) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:33:46.307+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:33:46.307+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:33:46.307+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:33:46.537+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:33:46.616+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:33:46.616+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:33:46.620+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:33:46.620+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:33:46.627+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.322 seconds
+[2025-02-23T20:34:30.695+0530] {processor.py:157} INFO - Started process (PID=15694) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:34:30.696+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:34:30.696+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:34:30.696+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:34:30.922+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:34:31.002+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:34:31.002+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:34:31.006+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:34:31.006+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:34:31.014+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.319 seconds
+[2025-02-23T20:35:14.667+0530] {processor.py:157} INFO - Started process (PID=15770) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:35:14.668+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:35:14.668+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:35:14.668+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:35:14.865+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:35:14.949+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:35:14.949+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:35:14.953+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:35:14.953+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:35:14.961+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.294 seconds
+[2025-02-23T20:36:00.031+0530] {processor.py:157} INFO - Started process (PID=15846) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:36:00.032+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:36:00.032+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:36:00.032+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:36:00.286+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:36:00.372+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:36:00.371+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:36:00.375+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:36:00.375+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:36:00.382+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.352 seconds
+[2025-02-23T20:36:48.491+0530] {processor.py:157} INFO - Started process (PID=15933) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:36:48.491+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:36:48.492+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:36:48.492+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:36:48.679+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:36:48.758+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:36:48.758+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:36:48.762+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:36:48.762+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:36:48.769+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.279 seconds
+[2025-02-23T20:37:40.937+0530] {processor.py:157} INFO - Started process (PID=16023) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:37:40.938+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:37:40.938+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:37:40.938+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:37:41.184+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:37:41.266+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:37:41.266+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:37:41.270+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:37:41.270+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:37:41.277+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.340 seconds
+[2025-02-23T20:38:28.650+0530] {processor.py:157} INFO - Started process (PID=16111) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:38:28.651+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:38:28.651+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:38:28.651+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:38:28.899+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:38:28.979+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:38:28.979+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:38:28.985+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:38:28.985+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:38:28.992+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.343 seconds
+[2025-02-23T20:39:13.236+0530] {processor.py:157} INFO - Started process (PID=16190) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:39:13.238+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:39:13.238+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:39:13.238+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:39:13.465+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:39:13.547+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:39:13.547+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:39:13.552+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:39:13.552+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:39:13.559+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.323 seconds
+[2025-02-23T20:39:57.199+0530] {processor.py:157} INFO - Started process (PID=16271) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:39:57.200+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:39:57.200+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:39:57.200+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:39:57.453+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:39:57.537+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:39:57.536+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:39:57.540+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:39:57.540+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:39:57.547+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.349 seconds
+[2025-02-23T20:40:46.124+0530] {processor.py:157} INFO - Started process (PID=16372) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:40:46.124+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:40:46.125+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:40:46.125+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:40:46.372+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:40:46.455+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:40:46.454+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:40:46.458+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:40:46.458+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:40:46.465+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.342 seconds
+[2025-02-23T20:41:34.129+0530] {processor.py:157} INFO - Started process (PID=16472) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:41:34.131+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:41:34.131+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:41:34.131+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:41:34.309+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:41:34.391+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:41:34.391+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:41:34.396+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:41:34.395+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:41:34.405+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.276 seconds
+[2025-02-23T20:42:26.777+0530] {processor.py:157} INFO - Started process (PID=16560) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:42:26.777+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:42:26.778+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:42:26.778+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:42:26.957+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:42:27.040+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:42:27.040+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:42:27.044+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:42:27.043+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:42:27.051+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.275 seconds
+[2025-02-23T20:43:22.235+0530] {processor.py:157} INFO - Started process (PID=16677) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:43:22.236+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:43:22.236+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:43:22.236+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:43:22.415+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:43:22.495+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:43:22.495+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:43:22.499+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:43:22.499+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:43:22.507+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.273 seconds
+[2025-02-23T20:44:08.738+0530] {processor.py:157} INFO - Started process (PID=16763) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:44:08.738+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:44:08.738+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:44:08.738+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:44:08.915+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:44:08.997+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:44:08.997+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:44:09.001+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:44:09.000+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:44:09.008+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.271 seconds
+[2025-02-23T20:44:55.126+0530] {processor.py:157} INFO - Started process (PID=16871) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:44:55.127+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:44:55.128+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:44:55.128+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:44:55.308+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:44:55.390+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:44:55.390+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:44:55.394+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:44:55.394+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:44:55.401+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.275 seconds
+[2025-02-23T20:45:52.791+0530] {processor.py:157} INFO - Started process (PID=16986) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:45:52.792+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:45:52.792+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:45:52.792+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:45:52.974+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:45:53.056+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:45:53.055+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:45:53.059+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:45:53.059+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:45:53.066+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.276 seconds
+[2025-02-23T20:46:49.928+0530] {processor.py:157} INFO - Started process (PID=17103) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:46:49.928+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:46:49.929+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:46:49.929+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:46:50.104+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:46:50.184+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:46:50.184+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:46:50.188+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:46:50.188+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:46:50.195+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.268 seconds
+[2025-02-23T20:47:45.554+0530] {processor.py:157} INFO - Started process (PID=17202) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:47:45.555+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:47:45.555+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:47:45.555+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:47:45.732+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:47:45.811+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:47:45.811+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:47:45.815+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:47:45.815+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:47:45.822+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.269 seconds
+[2025-02-23T20:48:36.205+0530] {processor.py:157} INFO - Started process (PID=17299) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:48:36.206+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T20:48:36.206+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:48:36.206+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:48:36.385+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T20:48:36.465+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:48:36.465+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T20:48:36.469+0530] {logging_mixin.py:154} INFO - [2025-02-23T20:48:36.469+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T20:48:36.476+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.272 seconds
+[2025-02-23T21:07:13.373+0530] {processor.py:157} INFO - Started process (PID=17421) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:07:13.373+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T21:07:13.374+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:07:13.374+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:07:13.549+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:07:13.628+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:07:13.628+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T21:07:13.632+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:07:13.632+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T21:07:13.639+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.267 seconds
+[2025-02-23T21:12:51.932+0530] {processor.py:157} INFO - Started process (PID=17532) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:12:51.932+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T21:12:51.932+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:12:51.932+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:12:52.112+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:12:52.193+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:12:52.193+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T21:12:52.197+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:12:52.197+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T21:12:52.204+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.273 seconds
+[2025-02-23T21:13:37.807+0530] {processor.py:157} INFO - Started process (PID=17614) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:13:37.807+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T21:13:37.807+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:13:37.807+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:13:37.983+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:13:38.063+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:13:38.062+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T21:13:38.066+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:13:38.066+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T21:13:38.074+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.268 seconds
+[2025-02-23T21:14:25.270+0530] {processor.py:157} INFO - Started process (PID=17691) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:14:25.270+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T21:14:25.271+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:14:25.271+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:14:25.448+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:14:25.527+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:14:25.527+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T21:14:25.531+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:14:25.531+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T21:14:25.538+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.268 seconds
+[2025-02-23T21:15:14.616+0530] {processor.py:157} INFO - Started process (PID=17789) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:15:14.616+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T21:15:14.616+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:15:14.616+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:15:14.798+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:15:14.880+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:15:14.879+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T21:15:14.883+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:15:14.883+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T21:15:14.890+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.275 seconds
+[2025-02-23T21:16:03.033+0530] {processor.py:157} INFO - Started process (PID=17871) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:16:03.034+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T21:16:03.035+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:16:03.034+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:16:03.214+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T21:16:03.294+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:16:03.294+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T21:16:03.297+0530] {logging_mixin.py:154} INFO - [2025-02-23T21:16:03.297+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T21:16:03.305+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.272 seconds
+[2025-02-23T22:52:58.150+0530] {processor.py:157} INFO - Started process (PID=22088) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:52:58.151+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T22:52:58.151+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:52:58.151+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:52:58.465+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:52:58.458+0530] {dagbag.py:346} ERROR - Failed to import: /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py", line 211, in <module>
+    validate_task >> detect_and_process_task >> process_task >> notify_task
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 103, in __rshift__
+    self.set_downstream(other)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 261, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 213, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-02-23T22:52:58.465+0530] {processor.py:841} WARNING - No viable dags retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:52:58.517+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.368 seconds
+[2025-02-23T22:54:19.161+0530] {processor.py:157} INFO - Started process (PID=22224) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:54:19.162+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T22:54:19.163+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:54:19.163+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:54:19.461+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:54:19.454+0530] {dagbag.py:346} ERROR - Failed to import: /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py", line 211, in <module>
+    validate_task >> detect_and_process_task >> process_task >> notify_task
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 103, in __rshift__
+    self.set_downstream(other)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 261, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 213, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-02-23T22:54:19.462+0530] {processor.py:841} WARNING - No viable dags retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:54:19.515+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.355 seconds
+[2025-02-23T22:55:04.698+0530] {processor.py:157} INFO - Started process (PID=22306) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:55:04.699+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T22:55:04.699+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:55:04.699+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:55:05.032+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:55:05.025+0530] {dagbag.py:346} ERROR - Failed to import: /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py", line 211, in <module>
+    validate_task >> detect_and_process_task >> process_task >> notify_task
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 103, in __rshift__
+    self.set_downstream(other)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 261, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 213, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-02-23T22:55:05.032+0530] {processor.py:841} WARNING - No viable dags retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:55:05.088+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.391 seconds
+[2025-02-23T22:55:50.632+0530] {processor.py:157} INFO - Started process (PID=22390) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:55:50.633+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T22:55:50.634+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:55:50.634+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:55:50.928+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:55:50.920+0530] {dagbag.py:346} ERROR - Failed to import: /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py", line 211, in <module>
+    validate_task >> detect_and_process_task >> process_task >> notify_task
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 103, in __rshift__
+    self.set_downstream(other)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 261, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 213, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: 'function' object has no attribute 'update_relative'
+[2025-02-23T22:55:50.928+0530] {processor.py:841} WARNING - No viable dags retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:55:50.983+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.351 seconds
+[2025-02-23T22:56:37.396+0530] {processor.py:157} INFO - Started process (PID=22467) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:56:37.396+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T22:56:37.397+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:56:37.396+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:56:37.577+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:56:37.828+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:56:37.828+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T22:56:37.832+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:56:37.832+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T22:56:37.841+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.446 seconds
+[2025-02-23T22:57:24.370+0530] {processor.py:157} INFO - Started process (PID=22552) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:57:24.370+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T22:57:24.370+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:57:24.370+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:57:24.559+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:57:24.641+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:57:24.641+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T22:57:24.645+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:57:24.645+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T22:57:24.653+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.283 seconds
+[2025-02-23T22:57:49.103+0530] {processor.py:157} INFO - Started process (PID=22611) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:57:49.104+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T22:57:49.104+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:57:49.104+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:57:49.423+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:57:49.505+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:57:49.505+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T22:57:49.509+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:57:49.509+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T22:57:49.517+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.414 seconds
+[2025-02-23T22:59:10.247+0530] {processor.py:157} INFO - Started process (PID=22856) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:59:10.248+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T22:59:10.248+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:59:10.248+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:59:10.440+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:59:10.525+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:59:10.525+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T22:59:10.529+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:59:10.529+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T22:59:10.536+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.291 seconds
+[2025-02-23T22:59:56.450+0530] {processor.py:157} INFO - Started process (PID=22943) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:59:56.451+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T22:59:56.451+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:59:56.451+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:59:56.633+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T22:59:56.715+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:59:56.715+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T22:59:56.719+0530] {logging_mixin.py:154} INFO - [2025-02-23T22:59:56.719+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T22:59:56.726+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.276 seconds
+[2025-02-23T23:00:42.715+0530] {processor.py:157} INFO - Started process (PID=23051) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:00:42.716+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:00:42.716+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:00:42.716+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:00:42.959+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:00:43.042+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:00:43.042+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:00:43.046+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:00:43.046+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:00:43.053+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.339 seconds
+[2025-02-23T23:04:23.274+0530] {processor.py:157} INFO - Started process (PID=23221) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:04:23.275+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:04:23.275+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:04:23.275+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:04:23.460+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:04:23.482+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:04:23.482+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:04:23.519+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:04:23.519+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:04:23.526+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.253 seconds
+[2025-02-23T23:05:41.666+0530] {processor.py:157} INFO - Started process (PID=23397) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:05:41.666+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:05:41.667+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:05:41.667+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:05:41.849+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:05:41.929+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:05:41.929+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:05:41.933+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:05:41.933+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:05:41.941+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.275 seconds
+[2025-02-23T23:05:57.149+0530] {processor.py:157} INFO - Started process (PID=23441) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:05:57.150+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:05:57.150+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:05:57.150+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:05:57.338+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:05:57.422+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:05:57.422+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:05:57.426+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:05:57.426+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:05:57.434+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.285 seconds
+[2025-02-23T23:07:18.954+0530] {processor.py:157} INFO - Started process (PID=23606) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:07:18.954+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:07:18.954+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:07:18.954+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:07:19.134+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:07:19.216+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:07:19.216+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:07:19.220+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:07:19.220+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:07:19.227+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.274 seconds
+[2025-02-23T23:08:09.275+0530] {processor.py:157} INFO - Started process (PID=23701) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:08:09.276+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:08:09.276+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:08:09.276+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:08:09.453+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:08:09.533+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:08:09.533+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:08:09.537+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:08:09.537+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:08:09.544+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.270 seconds
+[2025-02-23T23:08:58.972+0530] {processor.py:157} INFO - Started process (PID=23790) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:08:58.973+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:08:58.973+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:08:58.973+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:08:59.208+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:08:59.290+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:08:59.290+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:08:59.294+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:08:59.294+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:08:59.301+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.330 seconds
+[2025-02-23T23:09:48.341+0530] {processor.py:157} INFO - Started process (PID=23903) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:09:48.343+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:09:48.343+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:09:48.343+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:09:48.533+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:09:48.616+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:09:48.616+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:09:48.620+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:09:48.620+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:09:48.627+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.286 seconds
+[2025-02-23T23:10:35.555+0530] {processor.py:157} INFO - Started process (PID=23998) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:10:35.555+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:10:35.556+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:10:35.556+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:10:35.736+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:10:35.818+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:10:35.818+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:10:35.822+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:10:35.822+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:10:35.829+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.275 seconds
+[2025-02-23T23:11:20.741+0530] {processor.py:157} INFO - Started process (PID=24479) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:11:20.742+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:11:20.742+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:11:20.742+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:11:21.059+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:11:21.142+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:11:21.142+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:11:21.146+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:11:21.146+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:11:21.153+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.413 seconds
+[2025-02-23T23:12:05.275+0530] {processor.py:157} INFO - Started process (PID=24575) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:12:05.276+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:12:05.276+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:12:05.276+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:12:05.462+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:12:05.542+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:12:05.542+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:12:05.546+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:12:05.546+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:12:05.553+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.279 seconds
+[2025-02-23T23:12:48.819+0530] {processor.py:157} INFO - Started process (PID=24657) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:12:48.820+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:12:48.820+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:12:48.820+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:12:49.119+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:12:49.202+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:12:49.201+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:12:49.205+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:12:49.205+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:12:49.214+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.396 seconds
+[2025-02-23T23:13:39.284+0530] {processor.py:157} INFO - Started process (PID=24754) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:13:39.286+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:13:39.286+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:13:39.286+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:13:39.469+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:13:39.550+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:13:39.550+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:13:39.554+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:13:39.554+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:13:39.562+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.278 seconds
+[2025-02-23T23:14:26.570+0530] {processor.py:157} INFO - Started process (PID=24846) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:14:26.571+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:14:26.572+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:14:26.571+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:14:26.758+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:14:26.839+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:14:26.838+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:14:26.842+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:14:26.842+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:14:26.850+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.280 seconds
+[2025-02-23T23:15:11.331+0530] {processor.py:157} INFO - Started process (PID=24925) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:15:11.332+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:15:11.332+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:15:11.332+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:15:11.570+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:15:11.657+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:15:11.657+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:15:11.661+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:15:11.660+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:15:11.669+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.338 seconds
+[2025-02-23T23:15:56.130+0530] {processor.py:157} INFO - Started process (PID=25030) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:15:56.131+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:15:56.131+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:15:56.131+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:15:56.373+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:15:56.455+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:15:56.455+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:15:56.459+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:15:56.459+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:15:56.467+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.337 seconds
+[2025-02-23T23:16:40.760+0530] {processor.py:157} INFO - Started process (PID=25115) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:16:40.761+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:16:40.761+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:16:40.761+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:16:40.992+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:16:41.073+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:16:41.073+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:16:41.077+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:16:41.077+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:16:41.085+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.325 seconds
+[2025-02-23T23:17:29.918+0530] {processor.py:157} INFO - Started process (PID=25203) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:17:29.918+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:17:29.918+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:17:29.918+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:17:30.101+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:17:30.186+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:17:30.186+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:17:30.190+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:17:30.190+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:17:30.197+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.280 seconds
+[2025-02-23T23:18:19.836+0530] {processor.py:157} INFO - Started process (PID=25284) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:18:19.836+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:18:19.836+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:18:19.836+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:18:20.083+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:18:20.166+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:18:20.166+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:18:20.170+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:18:20.170+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:18:20.176+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.341 seconds
+[2025-02-23T23:35:48.546+0530] {processor.py:157} INFO - Started process (PID=25384) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:35:48.547+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-23T23:35:48.547+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:35:48.547+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:35:48.789+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-23T23:35:48.870+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:35:48.869+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-23T23:35:48.874+0530] {logging_mixin.py:154} INFO - [2025-02-23T23:35:48.873+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-23T23:35:48.881+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.335 seconds
+[2025-02-24T00:41:23.726+0530] {processor.py:157} INFO - Started process (PID=25531) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-24T00:41:23.727+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-24T00:41:23.728+0530] {logging_mixin.py:154} INFO - [2025-02-24T00:41:23.728+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-24T00:41:23.968+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-24T00:41:24.047+0530] {logging_mixin.py:154} INFO - [2025-02-24T00:41:24.047+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-24T00:41:24.051+0530] {logging_mixin.py:154} INFO - [2025-02-24T00:41:24.051+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-24T00:41:24.058+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.333 seconds
+[2025-02-24T00:42:21.437+0530] {processor.py:157} INFO - Started process (PID=25622) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-24T00:42:21.437+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-24T00:42:21.438+0530] {logging_mixin.py:154} INFO - [2025-02-24T00:42:21.438+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-24T00:42:21.616+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-24T00:42:21.695+0530] {logging_mixin.py:154} INFO - [2025-02-24T00:42:21.695+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-24T00:42:21.699+0530] {logging_mixin.py:154} INFO - [2025-02-24T00:42:21.699+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-24T00:42:21.707+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.270 seconds
+[2025-02-24T01:36:44.024+0530] {processor.py:157} INFO - Started process (PID=25741) to work on /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-24T01:36:44.026+0530] {processor.py:829} INFO - Processing file /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py for tasks to queue
+[2025-02-24T01:36:44.026+0530] {logging_mixin.py:154} INFO - [2025-02-24T01:36:44.026+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-24T01:36:44.249+0530] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py
+[2025-02-24T01:36:44.329+0530] {logging_mixin.py:154} INFO - [2025-02-24T01:36:44.329+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-24T01:36:44.333+0530] {logging_mixin.py:154} INFO - [2025-02-24T01:36:44.332+0530] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-02-24T01:36:44.340+0530] {processor.py:179} INFO - Processing /Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py took 0.316 seconds

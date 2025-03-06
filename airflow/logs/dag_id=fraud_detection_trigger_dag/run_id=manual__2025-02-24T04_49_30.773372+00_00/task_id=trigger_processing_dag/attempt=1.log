@@ -1,0 +1,13 @@
+[2025-02-24T10:19:32.824+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fraud_detection_trigger_dag.trigger_processing_dag manual__2025-02-24T04:49:30.773372+00:00 [queued]>
+[2025-02-24T10:19:32.827+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fraud_detection_trigger_dag.trigger_processing_dag manual__2025-02-24T04:49:30.773372+00:00 [queued]>
+[2025-02-24T10:19:32.827+0530] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-02-24T10:19:32.832+0530] {taskinstance.py:1382} INFO - Executing <Task(TriggerDagRunOperator): trigger_processing_dag> on 2025-02-24 04:49:30.773372+00:00
+[2025-02-24T10:19:32.836+0530] {standard_task_runner.py:57} INFO - Started process 6198 to run task
+[2025-02-24T10:19:32.839+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'fraud_detection_trigger_dag', 'trigger_processing_dag', 'manual__2025-02-24T04:49:30.773372+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/data_pipeline_dag.py', '--cfg-path', '/var/folders/kz/_l5jq2xx6db29k_3xyv2j8n40000gp/T/tmp5wh42pxa']
+[2025-02-24T10:19:32.840+0530] {standard_task_runner.py:85} INFO - Job 65: Subtask trigger_processing_dag
+[2025-02-24T10:19:32.858+0530] {task_command.py:416} INFO - Running <TaskInstance: fraud_detection_trigger_dag.trigger_processing_dag manual__2025-02-24T04:49:30.773372+00:00 [running]> on host ninja-its-macbook-air-90.local
+[2025-02-24T10:19:32.931+0530] {logging_mixin.py:154} WARNING - /Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2025-02-24T10:19:32.940+0530] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fraud_detection_trigger_dag' AIRFLOW_CTX_TASK_ID='trigger_processing_dag' AIRFLOW_CTX_EXECUTION_DATE='2025-02-24T04:49:30.773372+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-24T04:49:30.773372+00:00'
+[2025-02-24T10:19:32.956+0530] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=fraud_detection_trigger_dag, task_id=trigger_processing_dag, execution_date=20250224T044930, start_date=20250224T044932, end_date=20250224T044932
+[2025-02-24T10:19:32.975+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-02-24T10:19:32.982+0530] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

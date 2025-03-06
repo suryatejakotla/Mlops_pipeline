@@ -1,0 +1,34 @@
+[2025-02-24T11:50:40.389+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fraud_detection_processing_dag.generate_summary manual__2025-02-24T05:35:11.806439+00:00 [queued]>
+[2025-02-24T11:50:40.392+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fraud_detection_processing_dag.generate_summary manual__2025-02-24T05:35:11.806439+00:00 [queued]>
+[2025-02-24T11:50:40.392+0530] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2025-02-24T11:50:40.396+0530] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): generate_summary> on 2025-02-24 05:35:11.806439+00:00
+[2025-02-24T11:50:40.401+0530] {standard_task_runner.py:57} INFO - Started process 13588 to run task
+[2025-02-24T11:50:40.403+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'fraud_detection_processing_dag', 'generate_summary', 'manual__2025-02-24T05:35:11.806439+00:00', '--job-id', '133', '--raw', '--subdir', 'DAGS_FOLDER/data_pipeline_dag.py', '--cfg-path', '/var/folders/kz/_l5jq2xx6db29k_3xyv2j8n40000gp/T/tmpnt1w7z1r']
+[2025-02-24T11:50:40.404+0530] {standard_task_runner.py:85} INFO - Job 133: Subtask generate_summary
+[2025-02-24T11:50:40.421+0530] {task_command.py:416} INFO - Running <TaskInstance: fraud_detection_processing_dag.generate_summary manual__2025-02-24T05:35:11.806439+00:00 [running]> on host ninja-its-macbook-air-90.local
+[2025-02-24T11:50:40.493+0530] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fraud_detection_processing_dag' AIRFLOW_CTX_TASK_ID='generate_summary' AIRFLOW_CTX_EXECUTION_DATE='2025-02-24T05:35:11.806439+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-24T05:35:11.806439+00:00'
+[2025-02-24T11:50:40.494+0530] {data_pipeline_dag.py:254} INFO - Generating summary...
+[2025-02-24T11:50:40.503+0530] {data_pipeline_dag.py:294} ERROR - Error generating summary: Object of type int64 is not JSON serializable
+[2025-02-24T11:50:40.503+0530] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py", line 290, in generate_summary
+    json.dump(summary, f)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int64 is not JSON serializable
+[2025-02-24T11:50:40.511+0530] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=fraud_detection_processing_dag, task_id=generate_summary, execution_date=20250224T053511, start_date=20250224T062040, end_date=20250224T062040
+[2025-02-24T11:50:40.514+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 133 for task generate_summary (Object of type int64 is not JSON serializable; 13588)
+[2025-02-24T11:50:40.539+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-02-24T11:50:40.545+0530] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

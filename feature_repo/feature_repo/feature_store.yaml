@@ -1,0 +1,11 @@
+#feature_repo/feature_repo/feature_store.yaml
+project: fraud_detection
+registry: /Users/nc25577_suryateja/Documents/air_pro/feature_repo/feature_repo/data/registry.db
+provider: local
+entity_key_serialization_version: 2
+online_store:
+  type: sqlite
+  path: /Users/nc25577_suryateja/Documents/air_pro/feature_repo/feature_repo/data/online_store.db
+offline_store:
+  type: file
+  

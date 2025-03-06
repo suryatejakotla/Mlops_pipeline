@@ -1,0 +1,35 @@
+[2025-02-24T11:40:27.939+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fraud_detection_processing_dag.engineer_features manual__2025-02-24T05:35:11.806439+00:00 [queued]>
+[2025-02-24T11:40:27.942+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fraud_detection_processing_dag.engineer_features manual__2025-02-24T05:35:11.806439+00:00 [queued]>
+[2025-02-24T11:40:27.942+0530] {taskinstance.py:1361} INFO - Starting attempt 3 of 6
+[2025-02-24T11:40:27.946+0530] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): engineer_features> on 2025-02-24 05:35:11.806439+00:00
+[2025-02-24T11:40:27.951+0530] {standard_task_runner.py:57} INFO - Started process 12398 to run task
+[2025-02-24T11:40:27.953+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'fraud_detection_processing_dag', 'engineer_features', 'manual__2025-02-24T05:35:11.806439+00:00', '--job-id', '117', '--raw', '--subdir', 'DAGS_FOLDER/data_pipeline_dag.py', '--cfg-path', '/var/folders/kz/_l5jq2xx6db29k_3xyv2j8n40000gp/T/tmppo2qw3t4']
+[2025-02-24T11:40:27.954+0530] {standard_task_runner.py:85} INFO - Job 117: Subtask engineer_features
+[2025-02-24T11:40:27.972+0530] {task_command.py:416} INFO - Running <TaskInstance: fraud_detection_processing_dag.engineer_features manual__2025-02-24T05:35:11.806439+00:00 [running]> on host ninja-its-macbook-air-90.local
+[2025-02-24T11:40:28.044+0530] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fraud_detection_processing_dag' AIRFLOW_CTX_TASK_ID='engineer_features' AIRFLOW_CTX_EXECUTION_DATE='2025-02-24T05:35:11.806439+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-24T05:35:11.806439+00:00'
+[2025-02-24T11:40:28.045+0530] {data_pipeline_dag.py:153} INFO - Engineering features...
+[2025-02-24T11:40:28.047+0530] {data_pipeline_dag.py:182} ERROR - Error in feature engineering: No columns to parse from file
+[2025-02-24T11:40:28.047+0530] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py", line 158, in engineer_features
+    df = pd.read_csv(input_path)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+[2025-02-24T11:40:28.061+0530] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=fraud_detection_processing_dag, task_id=engineer_features, execution_date=20250224T053511, start_date=20250224T061027, end_date=20250224T061028
+[2025-02-24T11:40:28.064+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 117 for task engineer_features (No columns to parse from file; 12398)
+[2025-02-24T11:40:28.090+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-02-24T11:40:28.099+0530] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

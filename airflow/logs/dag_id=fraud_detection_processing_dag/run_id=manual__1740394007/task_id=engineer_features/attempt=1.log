@@ -1,0 +1,18 @@
+[2025-02-24T16:17:05.575+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fraud_detection_processing_dag.engineer_features manual__1740394007 [queued]>
+[2025-02-24T16:17:05.577+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fraud_detection_processing_dag.engineer_features manual__1740394007 [queued]>
+[2025-02-24T16:17:05.578+0530] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2025-02-24T16:17:05.582+0530] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): engineer_features> on 2025-02-24 10:46:47.648205+00:00
+[2025-02-24T16:17:05.587+0530] {standard_task_runner.py:57} INFO - Started process 34495 to run task
+[2025-02-24T16:17:05.590+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'fraud_detection_processing_dag', 'engineer_features', 'manual__1740394007', '--job-id', '218', '--raw', '--subdir', 'DAGS_FOLDER/data_pipeline_dag.py', '--cfg-path', '/var/folders/kz/_l5jq2xx6db29k_3xyv2j8n40000gp/T/tmpxzzsd3aw']
+[2025-02-24T16:17:05.590+0530] {standard_task_runner.py:85} INFO - Job 218: Subtask engineer_features
+[2025-02-24T16:17:05.609+0530] {task_command.py:416} INFO - Running <TaskInstance: fraud_detection_processing_dag.engineer_features manual__1740394007 [running]> on host ninja-its-macbook-air-90.local
+[2025-02-24T16:17:05.630+0530] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fraud_detection_processing_dag' AIRFLOW_CTX_TASK_ID='engineer_features' AIRFLOW_CTX_EXECUTION_DATE='2025-02-24T10:46:47.648205+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__1740394007'
+[2025-02-24T16:17:05.631+0530] {data_pipeline_dag.py:184} INFO - Engineering features from Feast...
+[2025-02-24T16:17:05.642+0530] {logging_mixin.py:154} WARNING - /Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/feast/entity.py:173 DeprecationWarning: Entity value_type will be mandatory in the next release. Please specify a value_type for entity 'RealmId'.
+[2025-02-24T16:17:05.643+0530] {logging_mixin.py:154} WARNING - /Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/feast/entity.py:173 DeprecationWarning: Entity value_type will be mandatory in the next release. Please specify a value_type for entity '__dummy'.
+[2025-02-24T16:17:05.645+0530] {data_pipeline_dag.py:205} INFO - Loaded 1 rows from Feast online store
+[2025-02-24T16:17:05.657+0530] {data_pipeline_dag.py:231} INFO - Engineered features saved to /Users/nc25577_suryateja/Documents/air_pro/input_files/engineered_df.csv with 1 rows
+[2025-02-24T16:17:05.657+0530] {python.py:194} INFO - Done. Returned value was: /Users/nc25577_suryateja/Documents/air_pro/input_files/engineered_df.csv
+[2025-02-24T16:17:05.662+0530] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=fraud_detection_processing_dag, task_id=engineer_features, execution_date=20250224T104647, start_date=20250224T104705, end_date=20250224T104705
+[2025-02-24T16:17:05.685+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-02-24T16:17:05.695+0530] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

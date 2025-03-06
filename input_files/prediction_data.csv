@@ -1,0 +1,2 @@
+Hour,Day,Month,DayOfWeek,IsWeekend,Amount,AmountAbs,IsNegative,Balance,BalanceAfterTxn,BalanceToAmountRatio,Type,txn_count,amount_mean,amount_std,balance_mean,balance_std
+0,24,11,4,0,-59.0,59.0,1,74124.140625,74065.140625,1256.3411535862451,0,1,-59.0,0.0,74124.140625,0.0

@@ -1,0 +1,12 @@
+2025-02-25 23:38:50,622 INFO - Starting the scheduler
+2025-02-25 23:38:50,625 INFO - Processing each file at most -1 times
+2025-02-25 23:38:50,631 INFO - Launched DagFileProcessorManager with pid: 6175
+2025-02-25 23:38:50,633 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-02-25 23:42:06,645 INFO - Exiting gracefully upon receiving signal 15
+2025-02-25 23:42:07,155 INFO - Sending Signals.SIGTERM to group 6175. PIDs of all processes in the group: []
+2025-02-25 23:42:07,156 INFO - Sending the signal Signals.SIGTERM to group 6175
+2025-02-25 23:42:07,157 INFO - Sending the signal Signals.SIGTERM to process 6175 as process group is missing.
+2025-02-25 23:42:07,158 INFO - Sending Signals.SIGTERM to group 6175. PIDs of all processes in the group: []
+2025-02-25 23:42:07,159 INFO - Sending the signal Signals.SIGTERM to group 6175
+2025-02-25 23:42:07,163 INFO - Sending the signal Signals.SIGTERM to process 6175 as process group is missing.
+2025-02-25 23:42:07,164 INFO - Exited execute loop

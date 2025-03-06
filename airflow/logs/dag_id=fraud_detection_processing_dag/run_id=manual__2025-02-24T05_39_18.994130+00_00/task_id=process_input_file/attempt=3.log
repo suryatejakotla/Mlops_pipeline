@@ -1,0 +1,22 @@
+[2025-02-24T11:24:31.749+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fraud_detection_processing_dag.process_input_file manual__2025-02-24T05:39:18.994130+00:00 [queued]>
+[2025-02-24T11:24:31.752+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fraud_detection_processing_dag.process_input_file manual__2025-02-24T05:39:18.994130+00:00 [queued]>
+[2025-02-24T11:24:31.752+0530] {taskinstance.py:1361} INFO - Starting attempt 3 of 4
+[2025-02-24T11:24:31.757+0530] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): process_input_file> on 2025-02-24 05:39:18.994130+00:00
+[2025-02-24T11:24:31.761+0530] {standard_task_runner.py:57} INFO - Started process 10574 to run task
+[2025-02-24T11:24:31.764+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'fraud_detection_processing_dag', 'process_input_file', 'manual__2025-02-24T05:39:18.994130+00:00', '--job-id', '97', '--raw', '--subdir', 'DAGS_FOLDER/data_pipeline_dag.py', '--cfg-path', '/var/folders/kz/_l5jq2xx6db29k_3xyv2j8n40000gp/T/tmpiq7c9xih']
+[2025-02-24T11:24:31.765+0530] {standard_task_runner.py:85} INFO - Job 97: Subtask process_input_file
+[2025-02-24T11:24:31.785+0530] {task_command.py:416} INFO - Running <TaskInstance: fraud_detection_processing_dag.process_input_file manual__2025-02-24T05:39:18.994130+00:00 [running]> on host ninja-its-macbook-air-90.local
+[2025-02-24T11:24:31.867+0530] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fraud_detection_processing_dag' AIRFLOW_CTX_TASK_ID='process_input_file' AIRFLOW_CTX_EXECUTION_DATE='2025-02-24T05:39:18.994130+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-24T05:39:18.994130+00:00'
+[2025-02-24T11:24:31.868+0530] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py", line 53, in process_input_file
+    file_path = kwargs.get('conf', {}).get('file_path')
+TypeError: get() missing 1 required positional argument: 'key'
+[2025-02-24T11:24:31.875+0530] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=fraud_detection_processing_dag, task_id=process_input_file, execution_date=20250224T053918, start_date=20250224T055431, end_date=20250224T055431
+[2025-02-24T11:24:31.878+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 97 for task process_input_file (get() missing 1 required positional argument: 'key'; 10574)
+[2025-02-24T11:24:31.900+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-02-24T11:24:31.909+0530] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

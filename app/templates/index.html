@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        input[type="file"] {
+            display: block;
+            margin-top: 10px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .summary {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .fraudulent-text {
+            color: #d32f2f;
+            font-weight: bold;
+        }
+        .non-fraudulent-text {
+            color: #388e3c;
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Fraud Detection Analysis</h1>
+        <div class="form-group">
+            <form action="/analyze" method="post" enctype="multipart/form-data">
+                <label for="file">Upload JSON or Excel file:</label>
+                <input type="file" id="file" name="file" accept=".json,.xlsx" required>
+                <button type="submit">Analyze</button>
+            </form>
+        </div>
+
+        {% if show_summary %}
+        <div class="summary">
+            <h2>Analysis Summary</h2>
+            <p><strong>Total account_numbers:</strong> {{ summary.total_transactions }}</p>
+            <p><strong>Fraudulent accounts:</strong> {{ summary.fraudulent_transactions }}</p>
+            <p><strong>Fraud Percentage:</strong> {{ "%.2f"|format(summary.fraud_percentage) }}%</p>
+            
+            
+            <h3 class="{{ highlight_class }}">{{ highlight_label }}</h3>
+            <ul>
+                {% for acc, perc in summary.highlighted_accounts %}
+                <li>{{ acc }} ({{ perc }}%)</li>
+                {% endfor %}
+            </ul>
+            
+            <h3 class="{{ other_class }}">{{ other_label }}</h3>
+            <ul>
+                {% for acc, perc in summary.other_accounts %}
+                <li>{{ acc }} ({{ perc }}%)</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

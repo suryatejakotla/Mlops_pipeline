@@ -1,0 +1,16 @@
+[2025-02-24T12:15:07.084+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fraud_detection_processing_dag.engineer_features manual__2025-02-24T06:44:54.125875+00:00 [queued]>
+[2025-02-24T12:15:07.087+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fraud_detection_processing_dag.engineer_features manual__2025-02-24T06:44:54.125875+00:00 [queued]>
+[2025-02-24T12:15:07.087+0530] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2025-02-24T12:15:07.091+0530] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): engineer_features> on 2025-02-24 06:44:54.125875+00:00
+[2025-02-24T12:15:07.095+0530] {standard_task_runner.py:57} INFO - Started process 15810 to run task
+[2025-02-24T12:15:07.098+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'fraud_detection_processing_dag', 'engineer_features', 'manual__2025-02-24T06:44:54.125875+00:00', '--job-id', '147', '--raw', '--subdir', 'DAGS_FOLDER/data_pipeline_dag.py', '--cfg-path', '/var/folders/kz/_l5jq2xx6db29k_3xyv2j8n40000gp/T/tmp5_8os3lc']
+[2025-02-24T12:15:07.099+0530] {standard_task_runner.py:85} INFO - Job 147: Subtask engineer_features
+[2025-02-24T12:15:07.116+0530] {task_command.py:416} INFO - Running <TaskInstance: fraud_detection_processing_dag.engineer_features manual__2025-02-24T06:44:54.125875+00:00 [running]> on host ninja-its-macbook-air-90.local
+[2025-02-24T12:15:07.193+0530] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fraud_detection_processing_dag' AIRFLOW_CTX_TASK_ID='engineer_features' AIRFLOW_CTX_EXECUTION_DATE='2025-02-24T06:44:54.125875+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-24T06:44:54.125875+00:00'
+[2025-02-24T12:15:07.194+0530] {data_pipeline_dag.py:162} INFO - Engineering features...
+[2025-02-24T12:15:07.198+0530] {data_pipeline_dag.py:178} INFO - Loaded 1064 rows from /Users/nc25577_suryateja/Documents/air_pro/input_files/processed_df.csv
+[2025-02-24T12:15:07.214+0530] {data_pipeline_dag.py:199} INFO - Engineered features saved to /Users/nc25577_suryateja/Documents/air_pro/input_files/engineered_df.csv with 1064 rows
+[2025-02-24T12:15:07.215+0530] {python.py:194} INFO - Done. Returned value was: /Users/nc25577_suryateja/Documents/air_pro/input_files/engineered_df.csv
+[2025-02-24T12:15:07.219+0530] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=fraud_detection_processing_dag, task_id=engineer_features, execution_date=20250224T064454, start_date=20250224T064507, end_date=20250224T064507
+[2025-02-24T12:15:07.234+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-02-24T12:15:07.244+0530] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

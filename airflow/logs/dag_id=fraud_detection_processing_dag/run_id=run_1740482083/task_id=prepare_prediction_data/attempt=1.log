@@ -1,0 +1,15 @@
+[2025-02-25T16:45:06.029+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fraud_detection_processing_dag.prepare_prediction_data run_1740482083 [queued]>
+[2025-02-25T16:45:06.031+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fraud_detection_processing_dag.prepare_prediction_data run_1740482083 [queued]>
+[2025-02-25T16:45:06.032+0530] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2025-02-25T16:45:06.036+0530] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): prepare_prediction_data> on 2025-02-25 11:14:43.350010+00:00
+[2025-02-25T16:45:06.041+0530] {standard_task_runner.py:57} INFO - Started process 72536 to run task
+[2025-02-25T16:45:06.044+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'fraud_detection_processing_dag', 'prepare_prediction_data', 'run_1740482083', '--job-id', '290', '--raw', '--subdir', 'DAGS_FOLDER/data_pipeline_dag.py', '--cfg-path', '/var/folders/kz/_l5jq2xx6db29k_3xyv2j8n40000gp/T/tmp9euywzli']
+[2025-02-25T16:45:06.044+0530] {standard_task_runner.py:85} INFO - Job 290: Subtask prepare_prediction_data
+[2025-02-25T16:45:06.062+0530] {task_command.py:416} INFO - Running <TaskInstance: fraud_detection_processing_dag.prepare_prediction_data run_1740482083 [running]> on host ninja-its-macbook-air-90.local
+[2025-02-25T16:45:06.083+0530] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fraud_detection_processing_dag' AIRFLOW_CTX_TASK_ID='prepare_prediction_data' AIRFLOW_CTX_EXECUTION_DATE='2025-02-25T11:14:43.350010+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='run_1740482083'
+[2025-02-25T16:45:06.084+0530] {data_pipeline_dag.py:236} INFO - Preparing data for prediction...
+[2025-02-25T16:45:06.092+0530] {data_pipeline_dag.py:248} INFO - Prediction data saved to /Users/nc25577_suryateja/Documents/air_pro/input_files/prediction_data.csv
+[2025-02-25T16:45:06.092+0530] {python.py:194} INFO - Done. Returned value was: /Users/nc25577_suryateja/Documents/air_pro/input_files/prediction_data.csv
+[2025-02-25T16:45:06.097+0530] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=fraud_detection_processing_dag, task_id=prepare_prediction_data, execution_date=20250225T111443, start_date=20250225T111506, end_date=20250225T111506
+[2025-02-25T16:45:06.138+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-02-25T16:45:06.149+0530] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

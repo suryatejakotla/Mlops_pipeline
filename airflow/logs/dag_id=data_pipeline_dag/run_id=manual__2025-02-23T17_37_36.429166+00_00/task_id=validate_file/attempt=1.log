@@ -1,0 +1,24 @@
+[2025-02-23T23:07:39.262+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_pipeline_dag.validate_file manual__2025-02-23T17:37:36.429166+00:00 [queued]>
+[2025-02-23T23:07:39.265+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_pipeline_dag.validate_file manual__2025-02-23T17:37:36.429166+00:00 [queued]>
+[2025-02-23T23:07:39.265+0530] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-02-23T23:07:39.269+0530] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): validate_file> on 2025-02-23 17:37:36.429166+00:00
+[2025-02-23T23:07:39.272+0530] {standard_task_runner.py:57} INFO - Started process 23642 to run task
+[2025-02-23T23:07:39.275+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'data_pipeline_dag', 'validate_file', 'manual__2025-02-23T17:37:36.429166+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/data_pipeline_dag.py', '--cfg-path', '/var/folders/kz/_l5jq2xx6db29k_3xyv2j8n40000gp/T/tmp8awjo01t']
+[2025-02-23T23:07:39.276+0530] {standard_task_runner.py:85} INFO - Job 45: Subtask validate_file
+[2025-02-23T23:07:39.294+0530] {task_command.py:416} INFO - Running <TaskInstance: data_pipeline_dag.validate_file manual__2025-02-23T17:37:36.429166+00:00 [running]> on host ninja-its-macbook-air-90.local
+[2025-02-23T23:07:39.313+0530] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='data_pipeline_dag' AIRFLOW_CTX_TASK_ID='validate_file' AIRFLOW_CTX_EXECUTION_DATE='2025-02-23T17:37:36.429166+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-23T17:37:36.429166+00:00'
+[2025-02-23T23:07:39.314+0530] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py", line 129, in validate_file
+    if not os.path.exists(file_path):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+[2025-02-23T23:07:39.323+0530] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=data_pipeline_dag, task_id=validate_file, execution_date=20250223T173736, start_date=20250223T173739, end_date=20250223T173739
+[2025-02-23T23:07:39.326+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 45 for task validate_file (stat: path should be string, bytes, os.PathLike or integer, not NoneType; 23642)
+[2025-02-23T23:07:39.329+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-02-23T23:07:39.337+0530] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

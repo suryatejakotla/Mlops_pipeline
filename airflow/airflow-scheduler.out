@@ -1,0 +1,14 @@
+[[34m2025-02-25T23:38:50.622+0530[0m] {[34mscheduler_job_runner.py:[0m797} INFO[0m - Starting the scheduler[0m
+[[34m2025-02-25T23:38:50.625+0530[0m] {[34mscheduler_job_runner.py:[0m804} INFO[0m - Processing each file at most -1 times[0m
+[[34m2025-02-25T23:38:50.631+0530[0m] {[34mmanager.py:[0m166} INFO[0m - Launched DagFileProcessorManager with pid: 6175[0m
+[[34m2025-02-25T23:38:50.633+0530[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2025-02-25T23:38:51.315+0530[0m] {[34msettings.py:[0m61} INFO[0m - Configured default timezone Timezone('UTC')[0m
+[2025-02-25T23:38:51.321+0530] {manager.py:410} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2025-02-25T23:42:06.645+0530[0m] {[34mscheduler_job_runner.py:[0m247} INFO[0m - Exiting gracefully upon receiving signal 15[0m
+[[34m2025-02-25T23:42:07.155+0530[0m] {[34mprocess_utils.py:[0m131} INFO[0m - Sending Signals.SIGTERM to group 6175. PIDs of all processes in the group: [][0m
+[[34m2025-02-25T23:42:07.156+0530[0m] {[34mprocess_utils.py:[0m86} INFO[0m - Sending the signal Signals.SIGTERM to group 6175[0m
+[[34m2025-02-25T23:42:07.157+0530[0m] {[34mprocess_utils.py:[0m100} INFO[0m - Sending the signal Signals.SIGTERM to process 6175 as process group is missing.[0m
+[[34m2025-02-25T23:42:07.158+0530[0m] {[34mprocess_utils.py:[0m131} INFO[0m - Sending Signals.SIGTERM to group 6175. PIDs of all processes in the group: [][0m
+[[34m2025-02-25T23:42:07.159+0530[0m] {[34mprocess_utils.py:[0m86} INFO[0m - Sending the signal Signals.SIGTERM to group 6175[0m
+[[34m2025-02-25T23:42:07.163+0530[0m] {[34mprocess_utils.py:[0m100} INFO[0m - Sending the signal Signals.SIGTERM to process 6175 as process group is missing.[0m
+[[34m2025-02-25T23:42:07.164+0530[0m] {[34mscheduler_job_runner.py:[0m873} INFO[0m - Exited execute loop[0m

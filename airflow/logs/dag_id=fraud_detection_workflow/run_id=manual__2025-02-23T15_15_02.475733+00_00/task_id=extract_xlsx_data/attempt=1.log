@@ -1,0 +1,13 @@
+[2025-02-23T20:45:13.114+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fraud_detection_workflow.extract_xlsx_data manual__2025-02-23T15:15:02.475733+00:00 [queued]>
+[2025-02-23T20:45:13.116+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fraud_detection_workflow.extract_xlsx_data manual__2025-02-23T15:15:02.475733+00:00 [queued]>
+[2025-02-23T20:45:13.117+0530] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-02-23T20:45:13.121+0530] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): extract_xlsx_data> on 2025-02-23 15:15:02.475733+00:00
+[2025-02-23T20:45:13.126+0530] {standard_task_runner.py:57} INFO - Started process 16916 to run task
+[2025-02-23T20:45:13.128+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'fraud_detection_workflow', 'extract_xlsx_data', 'manual__2025-02-23T15:15:02.475733+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/onecode.py', '--cfg-path', '/var/folders/kz/_l5jq2xx6db29k_3xyv2j8n40000gp/T/tmpbm48un4h']
+[2025-02-23T20:45:13.129+0530] {standard_task_runner.py:85} INFO - Job 23: Subtask extract_xlsx_data
+[2025-02-23T20:45:13.149+0530] {task_command.py:416} INFO - Running <TaskInstance: fraud_detection_workflow.extract_xlsx_data manual__2025-02-23T15:15:02.475733+00:00 [running]> on host ninja-its-macbook-air-90.local
+[2025-02-23T20:45:13.224+0530] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fraud_detection_workflow' AIRFLOW_CTX_TASK_ID='extract_xlsx_data' AIRFLOW_CTX_EXECUTION_DATE='2025-02-23T15:15:02.475733+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-23T15:15:02.475733+00:00'
+[2025-02-23T20:45:13.229+0530] {python.py:194} INFO - Done. Returned value was: None
+[2025-02-23T20:45:13.231+0530] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=fraud_detection_workflow, task_id=extract_xlsx_data, execution_date=20250223T151502, start_date=20250223T151513, end_date=20250223T151513
+[2025-02-23T20:45:13.264+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-02-23T20:45:13.276+0530] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

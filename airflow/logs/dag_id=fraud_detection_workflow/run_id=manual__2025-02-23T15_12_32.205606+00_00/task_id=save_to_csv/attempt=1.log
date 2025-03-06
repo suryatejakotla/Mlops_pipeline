@@ -1,0 +1,32 @@
+[2025-02-23T20:42:44.588+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fraud_detection_workflow.save_to_csv manual__2025-02-23T15:12:32.205606+00:00 [queued]>
+[2025-02-23T20:42:44.591+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fraud_detection_workflow.save_to_csv manual__2025-02-23T15:12:32.205606+00:00 [queued]>
+[2025-02-23T20:42:44.591+0530] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-02-23T20:42:44.596+0530] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): save_to_csv> on 2025-02-23 15:12:32.205606+00:00
+[2025-02-23T20:42:44.601+0530] {standard_task_runner.py:57} INFO - Started process 16607 to run task
+[2025-02-23T20:42:44.604+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'fraud_detection_workflow', 'save_to_csv', 'manual__2025-02-23T15:12:32.205606+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/onecode.py', '--cfg-path', '/var/folders/kz/_l5jq2xx6db29k_3xyv2j8n40000gp/T/tmp6o2_mhc8']
+[2025-02-23T20:42:44.605+0530] {standard_task_runner.py:85} INFO - Job 19: Subtask save_to_csv
+[2025-02-23T20:42:44.626+0530] {task_command.py:416} INFO - Running <TaskInstance: fraud_detection_workflow.save_to_csv manual__2025-02-23T15:12:32.205606+00:00 [running]> on host ninja-its-macbook-air-90.local
+[2025-02-23T20:42:44.700+0530] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fraud_detection_workflow' AIRFLOW_CTX_TASK_ID='save_to_csv' AIRFLOW_CTX_EXECUTION_DATE='2025-02-23T15:12:32.205606+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-23T15:12:32.205606+00:00'
+[2025-02-23T20:42:44.720+0530] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/nc25577_suryateja/Documents/air_pro/airflow/dags/onecode.py", line 225, in save_to_csv
+    df.to_csv(csv_path, index=False)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 247, in save
+    with get_handle(
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/pandas/io/common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/pandas/io/common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'output'
+[2025-02-23T20:42:44.737+0530] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=fraud_detection_workflow, task_id=save_to_csv, execution_date=20250223T151232, start_date=20250223T151244, end_date=20250223T151244
+[2025-02-23T20:42:44.741+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 19 for task save_to_csv (Cannot save file into a non-existent directory: 'output'; 16607)
+[2025-02-23T20:42:44.781+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-02-23T20:42:44.792+0530] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

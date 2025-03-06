@@ -1,0 +1,16 @@
+[2025-02-25T22:59:37.840+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fraud_detection_processing_dag.generate_summary manual__1740504550 [queued]>
+[2025-02-25T22:59:37.843+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fraud_detection_processing_dag.generate_summary manual__1740504550 [queued]>
+[2025-02-25T22:59:37.843+0530] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2025-02-25T22:59:37.847+0530] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): generate_summary> on 2025-02-25 17:29:10.824684+00:00
+[2025-02-25T22:59:37.852+0530] {standard_task_runner.py:57} INFO - Started process 91387 to run task
+[2025-02-25T22:59:37.854+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'fraud_detection_processing_dag', 'generate_summary', 'manual__1740504550', '--job-id', '421', '--raw', '--subdir', 'DAGS_FOLDER/data_pipeline_dag.py', '--cfg-path', '/var/folders/kz/_l5jq2xx6db29k_3xyv2j8n40000gp/T/tmptqg99o1t']
+[2025-02-25T22:59:37.855+0530] {standard_task_runner.py:85} INFO - Job 421: Subtask generate_summary
+[2025-02-25T22:59:37.872+0530] {task_command.py:416} INFO - Running <TaskInstance: fraud_detection_processing_dag.generate_summary manual__1740504550 [running]> on host ninja-its-macbook-air-90.local
+[2025-02-25T22:59:37.893+0530] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fraud_detection_processing_dag' AIRFLOW_CTX_TASK_ID='generate_summary' AIRFLOW_CTX_EXECUTION_DATE='2025-02-25T17:29:10.824684+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__1740504550'
+[2025-02-25T22:59:37.894+0530] {data_pipeline_dag.py:277} INFO - Generating summary...
+[2025-02-25T22:59:37.904+0530] {data_pipeline_dag.py:311} INFO - Summary before serialization: {'total_transactions': 1, 'fraudulent_transactions': 1, 'fraud_percentage': 100.0, 'highlighted_accounts': [(5355578130, '100.00')], 'other_accounts': [('None', '0.00')]}
+[2025-02-25T22:59:37.905+0530] {data_pipeline_dag.py:315} INFO - Summary saved to /Users/nc25577_suryateja/Documents/air_pro/input_files/summary_manual__1740504550.csv
+[2025-02-25T22:59:37.905+0530] {python.py:194} INFO - Done. Returned value was: /Users/nc25577_suryateja/Documents/air_pro/input_files/summary_manual__1740504550.csv
+[2025-02-25T22:59:37.910+0530] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=fraud_detection_processing_dag, task_id=generate_summary, execution_date=20250225T172910, start_date=20250225T172937, end_date=20250225T172937
+[2025-02-25T22:59:37.949+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-02-25T22:59:37.956+0530] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

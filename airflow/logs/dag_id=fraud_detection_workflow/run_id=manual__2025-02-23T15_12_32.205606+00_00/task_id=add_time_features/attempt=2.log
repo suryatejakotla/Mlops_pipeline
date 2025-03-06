@@ -1,0 +1,34 @@
+[2025-02-23T21:06:48.227+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fraud_detection_workflow.add_time_features manual__2025-02-23T15:12:32.205606+00:00 [queued]>
+[2025-02-23T21:06:48.229+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fraud_detection_workflow.add_time_features manual__2025-02-23T15:12:32.205606+00:00 [queued]>
+[2025-02-23T21:06:48.229+0530] {taskinstance.py:1361} INFO - Starting attempt 2 of 2
+[2025-02-23T21:06:48.233+0530] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): add_time_features> on 2025-02-23 15:12:32.205606+00:00
+[2025-02-23T21:06:48.237+0530] {standard_task_runner.py:57} INFO - Started process 17364 to run task
+[2025-02-23T21:06:48.243+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'fraud_detection_workflow', 'add_time_features', 'manual__2025-02-23T15:12:32.205606+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/onecode.py', '--cfg-path', '/var/folders/kz/_l5jq2xx6db29k_3xyv2j8n40000gp/T/tmp8ui35cpn']
+[2025-02-23T21:06:48.244+0530] {standard_task_runner.py:85} INFO - Job 36: Subtask add_time_features
+[2025-02-23T21:06:48.263+0530] {task_command.py:416} INFO - Running <TaskInstance: fraud_detection_workflow.add_time_features manual__2025-02-23T15:12:32.205606+00:00 [running]> on host ninja-its-macbook-air-90.local
+[2025-02-23T21:06:48.341+0530] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fraud_detection_workflow' AIRFLOW_CTX_TASK_ID='add_time_features' AIRFLOW_CTX_EXECUTION_DATE='2025-02-23T15:12:32.205606+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-23T15:12:32.205606+00:00'
+[2025-02-23T21:06:48.344+0530] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/nc25577_suryateja/Documents/air_pro/airflow/dags/onecode.py", line 231, in add_time_features
+    df = pd.read_csv(csv_path)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/pandas/io/common.py", line 718, in get_handle
+    ioargs = _get_filepath_or_buffer(
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/pandas/io/common.py", line 460, in _get_filepath_or_buffer
+    raise ValueError(msg)
+ValueError: Invalid file path or buffer object type: <class 'NoneType'>
+[2025-02-23T21:06:48.355+0530] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=fraud_detection_workflow, task_id=add_time_features, execution_date=20250223T151232, start_date=20250223T153648, end_date=20250223T153648
+[2025-02-23T21:06:48.358+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 36 for task add_time_features (Invalid file path or buffer object type: <class 'NoneType'>; 17364)
+[2025-02-23T21:06:48.385+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-02-23T21:06:48.396+0530] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

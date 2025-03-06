@@ -1,0 +1,29 @@
+
+E
+%
+RealmId"RealmIdJfraud_detection
+õüğ½ –É¹õüğ½ –É¹
+F
+&
+__dummy"
+__dummy_idJfraud_detection
+õüğ½€èÍ¹õüğ½€èÍ¹1"$dac516e0-db75-411a-9853-d09a53ae00bd*ÈÁö½è‘ÔÏ2†
+æ
+fraud_featuresfraud_detectionRealmId"
+
+UserId"
+Account_number"
+Date"
+
+Amount"
+Balance"
+	Narration"
+Type2€ç„:`event_timestampZ	/dev/nullŠ1feast.infra.offline_stores.file_source.FileSource¢	/dev/null@Jf	Šfeast.data_source.PushSource¢fraud_features_pushÒ,event_timestampZ	/dev/null¢	/dev/nullb
+RealmId
+õüğ½ÀšÒ¹¼Áö½ÀŞ›+R®
+«
+,feast.infra.online_stores.sqlite.SqliteTable"{
+Y/Users/nc25577_suryateja/Documents/air_pro/feature_repo/feature_repo/data/online_store.dbfraud_detection_fraud_featuresbx	Šfeast.data_source.PushSource¢fraud_features_pushªfraud_detectionÒ,event_timestampZ	/dev/null¢	/dev/nullbrevent_timestampZ	/dev/nullŠ1feast.infra.offline_stores.file_source.FileSource¢	/dev/nullªfraud_detectionŠ1
+
+fraud_detection
+õüğ½Ğê‡¶õüğ½Ğê‡¶

@@ -1,0 +1,24 @@
+[2025-02-23T20:46:25.500+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_pipeline_dag.extract_data manual__2025-02-23T15:11:21.939601+00:00 [queued]>
+[2025-02-23T20:46:25.503+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_pipeline_dag.extract_data manual__2025-02-23T15:11:21.939601+00:00 [queued]>
+[2025-02-23T20:46:25.503+0530] {taskinstance.py:1361} INFO - Starting attempt 2 of 2
+[2025-02-23T20:46:25.507+0530] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): extract_data> on 2025-02-23 15:11:21.939601+00:00
+[2025-02-23T20:46:25.510+0530] {standard_task_runner.py:57} INFO - Started process 17052 to run task
+[2025-02-23T20:46:25.514+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'data_pipeline_dag', 'extract_data', 'manual__2025-02-23T15:11:21.939601+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/data_pipeline_dag.py', '--cfg-path', '/var/folders/kz/_l5jq2xx6db29k_3xyv2j8n40000gp/T/tmprc_ozbcm']
+[2025-02-23T20:46:25.515+0530] {standard_task_runner.py:85} INFO - Job 27: Subtask extract_data
+[2025-02-23T20:46:25.533+0530] {task_command.py:416} INFO - Running <TaskInstance: data_pipeline_dag.extract_data manual__2025-02-23T15:11:21.939601+00:00 [running]> on host ninja-its-macbook-air-90.local
+[2025-02-23T20:46:25.553+0530] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='data_pipeline_dag' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2025-02-23T15:11:21.939601+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-23T15:11:21.939601+00:00'
+[2025-02-23T20:46:25.554+0530] {data_pipeline_dag.py:172} INFO - Received file path: None
+[2025-02-23T20:46:25.554+0530] {data_pipeline_dag.py:174} ERROR - Invalid or missing file path: None
+[2025-02-23T20:46:25.554+0530] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/nc25577_suryateja/Documents/air_pro/airflow/dags/data_pipeline_dag.py", line 175, in extract_and_convert
+    raise ValueError(f"Invalid or missing file path: {file_path}")
+ValueError: Invalid or missing file path: None
+[2025-02-23T20:46:25.564+0530] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=data_pipeline_dag, task_id=extract_data, execution_date=20250223T151121, start_date=20250223T151625, end_date=20250223T151625
+[2025-02-23T20:46:25.567+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 27 for task extract_data (Invalid or missing file path: None; 17052)
+[2025-02-23T20:46:25.610+0530] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-02-23T20:46:25.617+0530] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

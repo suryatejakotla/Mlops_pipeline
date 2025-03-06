@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/bin/airflow", line 8, in <module>
+    sys.exit(main())
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/__main__.py", line 57, in main
+    args.func(args)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/utils/cli.py", line 114, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/utils/providers_configuration_loader.py", line 55, in wrapped_function
+    return func(*args, **kwargs)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/cli/commands/webserver_command.py", line 504, in webserver
+    monitor_gunicorn(gunicorn_master_proc.pid)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/cli/commands/webserver_command.py", line 459, in monitor_gunicorn
+    GunicornMonitor(
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/cli/commands/webserver_command.py", line 213, in start
+    self._wait_until_true(
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/cli/commands/webserver_command.py", line 159, in _wait_until_true
+    while not fn():
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/cli/commands/webserver_command.py", line 214, in <lambda>
+    lambda: self.num_workers_expected == self._get_num_workers_running(),
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/airflow/cli/commands/webserver_command.py", line 153, in _get_num_workers_running
+    workers = psutil.Process(self.gunicorn_master_proc.pid).children()
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/psutil/__init__.py", line 317, in __init__
+    self._init(pid)
+  File "/Users/nc25577_suryateja/Documents/air_pro/venv/lib/python3.9/site-packages/psutil/__init__.py", line 363, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=6160)
